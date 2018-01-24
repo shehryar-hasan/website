@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Shehryar Hasan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      /*line-height: 1.8;*/
+      color: green;
+  }
+  p {font-size: 20px;}
+  /*.margin {margin-bottom: 45px;}*/
+  .bg-1 { 
+      background-color: white; /* Green */
+      color: green;
+      -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 10s; /* Firefox < 16 */
+        -ms-animation: fadein 10s; /* Internet Explorer */
+         -o-animation: fadein 10s; /* Opera < 12.1 */
+            animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; 
+    transform: translate3d(0, -20%, 0);}
+    to   { opacity: 1; 
+    transform: translate3d(0, 0, 0);}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; 
+    transform: translate3d(0, -20%, 0);}
+    to   { opacity: 1; 
+    transform: translate3d(0, 0, 0);}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein fadein {
+    from { opacity: 0; 
+    transform: translate3d(0, -20%, 0);}
+    to   { opacity: 1; 
+    transform: translate3d(0, 0, 0);}
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+  
+  .bg-2 { 
+      background-color: #F0F0F0; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: white; 
+      color: green;
+  }
+  .bg-4 { 
+      background-color: #F0F0F0; 
+      color: green;
+  }
+
+  .bg-5 { 
+      background-color: #F0F0F0; 
+      color: green;
+  }
+  .container-fluid {
+      padding-top: 200px;
+      padding-bottom: 100px;
+  }
+  .navbar {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      color: green;
+  }
+
+  .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  margin-left:50px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+  .col-sm-4 {
+    font-size: 30px;
+  }
+  .navbar-nav  li a:hover {
+      color: green !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style= "color:green;">Shehryar Hasan</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="color:green;">
+      <ul class="nav navbar-nav navbar-right" >
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#proj">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id= "top">
+  <h3 style="font-size:96px;">Hi, I'm Shehryar</h3>
+  <i class="fa fa-angle-double-down" style="font-size:96px;color:green; margin-top:100px; opacity: 0.5;"></i>
+</div>
+
+<div class="container-fluid bg-4 text-center" id= "about">
+  <h2 style="font-size:64px;color:green; margin-top:-100px; margin-bottom: 50px"> About Me: </h2>
+  <h3 style="font-size50px;text-align: left; margin-top:00px; margin-bottom: 00px">
+  <ul class="fa-ul">
+  <li><i class="fa fa-ge" style="font-size:40px;color:green; margin-bottom:5px; margin-right: 15px;"></i>I'm currently a student at Brown University, studying Computer Science and Economics</li>
+  <li><i class="fa fa-bitcoin" style="font-size:40px;color:green; margin-top: 20px; margin-bottom:5px; margin-right: 15px;"></i>I've previously worked on projects for both Ernst & Young and the European Union, and also enjoy teaching</li>
+  <li><i class="fa fa-bars" style="font-size:40px;color:green; margin-top: 20px; margin-bottom:5px; margin-right: 15px;"></i> I'm interested in further exploring the intersection between entrepreneurism, management and technology in the future</li>
+  <li><i class="fa fa-share-alt" style="font-size:40px;color:green; margin-top: 20px; margin-bottom:5px; margin-right: 15px;"></i>I love debating a wide range of contemporary issues - reach out to me if you'd talk, I'm particularly interested in Politics/Technology/Sports/Cryptocurrencies</li>
+  </h3></ul>
+</div>
+
+<div class="container-fluid bg-5 text-center" id= "skills">
+  <h3 style="font-size:64px;color:green; margin-top:-200px; margin-bottom: 50px"> Skills: </h3>
+   <i class="devicon-bootstrap-plain-wordmark colored" style="font-size:80px;"></i> 
+   <i class="devicon-css3-plain-wordmark colored"style="font-size:80px;"></i>
+   <i class="devicon-git-plain-wordmark colored" style="font-size:80px;"></i>
+   <i class="devicon-html5-plain-wordmark colored" style="font-size:80px; "></i>
+   <i class="devicon-java-plain-wordmark colored" style="font-size:80px;"></i> 
+   <i class="devicon-javascript-plain colored" style="font-size:80px;"></i>
+   <i class="devicon-jquery-plain-wordmark colored" style="font-size:80px;"></i> 
+   <i class="devicon-mysql-plain-wordmark colored" style="font-size:80px;"></i>
+   <i class="devicon-python-plain-wordmark colored" style="font-size:80px;"></i>
+  </div>
+
+
+<!-- Second Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id ="proj">    
+  <h3 class="margin" style="font-size:64px;color:green; margin-top:-100px; margin-bottom: 50px">What I've built:</h3>
+  <p> Hover over images for information </p>
+  <br>
+  <div class = "container" style = "font-size: 40px; margin-bottom: 30px;">
+      <img src="dab.png" class="img-responsive margin" style="width:80%; margin-left:50px;" alt="Image">
+      <div class="overlay">
+    <div class="text">Deliveries@Brown, a fully functional Web App written with Java, SQL, JavaScript, HTML. Utilizes multiple APIs, including Google Maps, Stripe and Twilio</div>
+  </div>
+    </div>
+      <div class = "container" style = "font-size: 40px; margin-bottom: 30px;">
+      <img src="pacman.png" class="img-responsive margin" style="width:80%; margin-left:50px;" alt="Image">
+      <div class="overlay">
+    <div class="text">Pacman, written in Java. Uses a BFS for Ghost AI</div>
+  </div>
+    </div>
+    <div class = "container" style = "font-size: 40px; margin-bottom: 30px;">
+      <img src="collision.png" class="img-responsive margin" style="width:80%; margin-left:50px;" alt="Image">
+      <div class="overlay">
+    <div class="text">Neural Net Webgazer, an image classification system using deep learning. Written in Python package Tenslorflow</div>
+  </div>
+    </div>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id = "Contact">
+   <a href = "mailto:malik_shehryar_hasan@brown.edu"> <i class="fa fa-envelope"  style="font-size:150px;color:green; margin-right: 30px;"> </a></i> 
+  <a href = "http://www.github.com"> <i class="fa fa-github" style="font-size:150px;color:green; margin-right: 30px;"></i>
+  <a href = "http://www.linkedin.com"> <i class="fa fa-linkedin-square" style="font-size:150px;color:green; margin-right: 30px;"></i>
+  <a href = "WebRes.pdf"> <i class="fa fa-file" style="font-size:140px;color:green; margin-right: 30px;"></i>
+</div>
+
+
+</body>
+</html>
